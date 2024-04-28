@@ -4,6 +4,7 @@ let arr = Array(9).fill(null)
 
 function handleClick(box) {
    const id = Number(box.id);
+   if (arr[id] !== null) return ;
    arr[id] = Data;
    // console.log(arr[id]);
    // console.log(arr);
